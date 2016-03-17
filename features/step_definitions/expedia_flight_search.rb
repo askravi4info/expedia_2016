@@ -14,8 +14,7 @@ And(/^user selects (.*) airport for the city from (departure|arrival) field$/) d
   #   on(ExpediaHomePage).set_departure_airport airport_name
   # else
   #   on(ExpediaHomePage).set_arrival_airport airport_name
-  # endfsadf
-  sdafsdaf
+  # end
 
   on(ExpediaHomePage).send("set_#{dep_arr}_airport", airport_name)
 
