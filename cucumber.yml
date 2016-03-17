@@ -1,0 +1,4 @@
+default: --no-source --color --format pretty --format html --out report.html
+slow: --no-source --color --format pretty --format html --out report.html --tags @slow
+fast: --no-source --color --format pretty --format html --out report.html --tags @smoke
+smoke_ff_qa: --no-source --color --format pretty --format html --out report.html --tags @smoke --tags ~@regression

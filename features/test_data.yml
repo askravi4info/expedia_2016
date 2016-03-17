@@ -1,0 +1,17 @@
+request: 5454545
+tool: 'cucumber'
+company_details:
+  company_name: 'chase'
+  company_id: 555
+
+domestic_details1:
+  dep_airport: 'columbus'
+  arr_airport: 'cleveland'
+
+
+domestic_details2:
+  dep_airport: 'columbus'
+  arr_airport: 'cleveland'
+
+
+
