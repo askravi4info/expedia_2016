@@ -55,3 +55,9 @@ Feature: Verify the Flight Search Functionality
   Scenario: verify the look and feel of the Expedia home page
     Given user is on expedia home page
     Then veirify the look and feel of the page is same as the wireframes
+
+
+  @new
+  Scenario:Verify the sort order of the search results are by price
+    And user search for a future valid International flights
+    Then verify the search results are displayed by time
