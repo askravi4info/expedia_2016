@@ -10,6 +10,9 @@ Feature: Verify the Flight Search Functionality
     And user selects Columbus, OH airport for the city from departure field
     And user selects Cleveland, OH airport for the city from arrival field
     And user makes a past date flight search
+    fa
+    sf
+    sa
     And searches for the flights availability
     Then verify the "The start or end date is prior to the current date." error message is displayed
 
